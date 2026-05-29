@@ -1,11 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 
-int main(){
-    float x = 50;
-    float *ptr = &x;
+int main (){
+    int id = 123;
+    int *ptr = &id;
+    
 
-    printf("Value of x: %f\n", x);
-    printf("Address of x: %p\n", &x);
-    printf("Value of ptr: %p\n", ptr);
-    printf("Value pointed to by ptr: %f\n", *ptr);
+    printf("Name: %d\n", id);
+    printf("Name-Address: %p\n", &id);
+    printf("%p\n",ptr);
+
+    
+    return 0;
+
 }
