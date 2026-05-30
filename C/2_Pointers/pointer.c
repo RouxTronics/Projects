@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 
+<<<<<<< HEAD
 int main() {
     int x = 50;
     int *ptr = &x;
@@ -14,4 +16,18 @@ int main() {
     printf("Length of integer: %zu bytes\n", sizeof(int));
     
     return 0;
+=======
+int main (){
+    int id = 123;
+    int *ptr = &id;
+    
+
+    printf("Name: %d\n", id);
+    printf("Name-Address: %p\n", &id);
+    printf("%p\n",ptr);
+
+    
+    return 0;
+
+>>>>>>> origin/main
 }
