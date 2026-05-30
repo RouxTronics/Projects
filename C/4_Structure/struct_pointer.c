@@ -1,8 +1,5 @@
 #include <stdio.h>
-
-void Employee(struct Employee *e, char *name, int age)
-
-
+#include <string.h>
 
 int main(){
 
@@ -22,4 +19,3 @@ void Employee(struct Employee *e, char *name, int age) {
     strcpy(e->name, name);
     e->age = age;
 }
-
